@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/user-study-website-2/static/css/main.7da39928.css",
+    "main.js": "/user-study-website-2/static/js/main.e0411f19.js",
+    "static/media/santander.png": "/user-study-website-2/static/media/santander.466b6c089b8b629b879a.png",
+    "static/media/eu_health.png": "/user-study-website-2/static/media/eu_health.53da49e773e6740d0512.png",
+    "static/media/zalando.png": "/user-study-website-2/static/media/zalando.f3b3388701489c91e7b6.png",
+    "index.html": "/user-study-website-2/index.html",
+    "main.7da39928.css.map": "/user-study-website-2/static/css/main.7da39928.css.map",
+    "main.e0411f19.js.map": "/user-study-website-2/static/js/main.e0411f19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7da39928.css",
+    "static/js/main.e0411f19.js"
+  ]
+}
