@@ -8,6 +8,69 @@ export const WEBSITES = {
   SANTANDER: "santander",
 };
 
+// ----------------------------------------------------------------------
+// NEW DYNAMIC CONTENT CONSTANT
+// Content is defined with <strong> tags for emphasis as used in the UI.
+// ----------------------------------------------------------------------
+export const DYNAMIC_CONTENT = {
+  [WEBSITES.ZALANDO]: {
+    Essential: {
+      on: ["<strong>Required to process your purchases</strong> and maintain your shopping cart.", "Enables basic site features like <strong>login and navigation</strong>."],
+      off: ["WARNING: <strong>Your shopping cart will not function.</strong>", "You will be unable to <strong>log in or complete orders.</strong>"],
+    },
+    Analytics: {
+      on: ["We use this data to <strong>understand popular products and improve app performance.</strong>", "Helps us <strong>optimize loading speeds and layout.</strong>"],
+      off: ["We won't be able to offer you the best, fastest shopping experience.", "Internal <strong>product performance metrics will be reduced.</strong>"],
+    },
+    Tracking: {
+      on: ["Allows <strong>personalized recommendations across your devices</strong> (mobile, desktop).", "<strong>Synchronizes your wish list and browsing history.</strong>"],
+      off: ["Recommendations may be generic and based on general trends only.", "<strong>Wish lists and history will not sync between devices.</strong>"],
+    },
+    Marketing: {
+      on: ["Enables <strong>personalized product ads and exclusive offers</strong> tailored to your style.", "Supports <strong>free returns and other customer benefits.</strong>"],
+      off: ["Ads will be <strong>non-personalized and generic.</strong>", "You may <strong>miss out on limited-time promotional offers.</strong>"],
+    },
+  },
+  [WEBSITES.EU_HEALTH]: {
+    Essential: {
+      on: ["Required for <strong>secure login to patient portals</strong> and managing appointments.", "Ensures compliance with <strong>basic data privacy regulations.</strong>"],
+      off: ["WARNING: <strong>Access to personal health records will be denied.</strong>", "<strong>Appointment scheduling features will be inaccessible.</strong>"],
+    },
+    Analytics: {
+      on: ["Used for internal development to <strong>improve article readability and site navigation.</strong>", "Helps public health officials <strong>track content engagement.</strong>"],
+      off: ["The site content and search will not be optimized for user experience.", "We lose data on <strong>common information needs for public policy.</strong>"],
+    },
+    Tracking: {
+      on: ["Allows you to <strong>continue reading long articles seamlessly across devices.</strong>", "<strong>Remembers language preferences across devices.</strong>"],
+      off: ["<strong>Content state will not be saved</strong> when you switch devices.", "<strong>Language settings may revert on new devices.</strong>"],
+    },
+    Marketing: {
+      on: ["Enables <strong>informational bulletins and health-related awareness campaigns.</strong>", "Supports <strong>distribution of public health announcements.</strong>"],
+      off: ["You will not receive <strong>targeted information on relevant health topics.</strong>", "Public service announcement delivery <strong>may be delayed.</strong>"],
+    },
+  },
+  [WEBSITES.SANTANDER]: {
+    Essential: {
+      on: ["Critical for <strong>secure online banking sessions and transaction validation.</strong>", "Required for <strong>fraud prevention and regulatory compliance.</strong>"],
+      off: ["WARNING: <strong>Online account access will be blocked for security reasons.</strong>", "<strong>Transactions cannot be securely authenticated.</strong>"],
+    },
+    Analytics: {
+      on: ["Used to <strong>optimize the banking dashboard layout and feature accessibility.</strong>", "Helps us <strong>debug platform errors and ensure uptime.</strong>"],
+      off: ["You may experience slower loading times and non-optimized interfaces.", "Internal <strong>error logging and performance monitoring will be limited.</strong>"],
+    },
+    Tracking: {
+      on: ["Allows <strong>easy sign-in across your banking app and web portal.</strong>", "Provides <strong>personalized security alerts based on device history.</strong>"],
+      off: ["You may need to <strong>re-authenticate frequently on different devices.</strong>", "Security features relying on <strong>cross-device history will be disabled.</strong>"],
+    },
+    Marketing: {
+      on: ["Enables <strong>targeted offers on mortgages, loans, and investment products.</strong>", "Supports <strong>financial education resources.</strong>"],
+      off: ["You will only see <strong>general advertisements for bank products.</strong>", "We won't be able to inform you of <strong>tailored opportunities.</strong>"],
+    },
+  },
+};
+// ----------------------------------------------------------------------
+
+
 export const DESIGN_APPROACH = {
   INFORMATIVE: "informative" 
 }
